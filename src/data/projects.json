@@ -1,60 +1,50 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Car Rental",
+      "imageSrc": "projects/car.png",
+      "description": "The project aims to develop a car rental web application leveraging a Micro Service architecture.",
+      "skills": ["Svelte", "Nest", "PostgreSQL"],
+
+      "source": "https://github.com/apollinelbcr/team_1-soen341projectW2024"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Tic-Tac-Toe",
+      "imageSrc": "projects/tictactoe.png",
+      "description": "This project is a Tic-Tac-Toe game that allows two players to play against each other.",
+      "skills": ["React", "HTML", "CSS"],
+      "source": "https://github.com/MomoG221/Investment-Calculator"
     },
+
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Investment Calculator",
+      "imageSrc": "projects/investment-calculator.png",
+      "description": "This is a calculator that helps users estimate the future value of their investment.",
+      "skills": ["React", "HTML", "CSS"],
+      "source": "https://github.com/MomoG221/Investment-Calculator"
     }
     ,
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "To-Do List",
+      "imageSrc": "projects/todo.png",
+      "description": "This is a simple Todo List application. The application allows users to add, edit, and delete items from a todo list.",
+      "skills": ["Node", "Express", "PostgreSQL"],
+      "source": "https://github.com/MomoG221/Todo-List"
     },
+
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Blog",
+      "imageSrc": "projects/blog.png",
+      "description": "The goal of this project is to create a Blog. The application will allow users to create, view, update, and delete blog posts.",
+      "skills": ["Node", "Express", "EJS"],
+      "source": "https://github.com/MomoG221/Blog"
     },
+
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Simon Game",
+      "imageSrc": "projects/simon.png",
+      "description": "Simon Game is a classic memory game where the player must remember and repeat a sequence of colors presented to them.",
+      "skills": ["JavaScript", "jQuery", "CSS"],
+      "source": "https://github.com/MomoG221/Simon-Game"
     }
     
   ]
