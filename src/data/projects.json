@@ -12,15 +12,15 @@
       "imageSrc": "projects/tictactoe.png",
       "description": "This project is a Tic-Tac-Toe game that allows two players to play against each other.",
       "skills": ["React", "HTML", "CSS"],
-      "source": "https://github.com/MomoG221/Investment-Calculator"
+      "source": "https://github.com/MomoG221/Tic-Tac-Toe"
     },
 
     {
-      "title": "Investment Calculator",
-      "imageSrc": "projects/investment-calculator.png",
-      "description": "This is a calculator that helps users estimate the future value of their investment.",
-      "skills": ["React", "HTML", "CSS"],
-      "source": "https://github.com/MomoG221/Investment-Calculator"
+      "title": "Lesson Scheduler",
+      "imageSrc": "projects/342.png",
+      "description": "Developed a Java-based system with SQL integration to manage lesson offerings and bookings.",
+      "skills": ["Java", "SQL"],
+      "source": "https://github.com/Sawanoza/SOEN342"
     }
     ,
     {
