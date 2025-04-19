@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import concordiaMaps from "@/public/projects/concordiamaps.jpeg";
 import carRentalImg from "@/public/projects/car.png";
 import tictactoe from "@/public/projects/tictactoe.png";
+import lesson from "@/public/projects/342.png";
+import soccerdb from "@/public/projects/soccerdb.png";
 
 export const links = [
   {
@@ -83,7 +85,7 @@ export const projectsData = [
     description:
       "Under development",
     tags: ["React", "SprintBoot", "AWS", "Docker" ] ,
-    imageUrl: carRentalImg,
+    imageUrl: lesson,
     source: "https://github.com/apollinelbcr/team_1-soen341projectW2024",
   },
   {
@@ -91,15 +93,15 @@ export const projectsData = [
     description:
       "Developed a Java-based system with SQL integration to manage lesson offerings and bookings.",
     tags: ["Java", "SQL"],
-    imageUrl: carRentalImg,
+    imageUrl: lesson,
     source: "https://github.com/Sawanoza/SOEN342",
   },
   {
-    title: "Databse",
+    title: "Soccer Databse",
     description:
       "Developed a Java-based system with SQL integration to manage lesson offerings and bookings.",
     tags: ["Java", "SQL"],
-    imageUrl: carRentalImg,
+    imageUrl: soccerdb,
     source: "https://github.com/Sawanoza/SOEN342",
   },
 

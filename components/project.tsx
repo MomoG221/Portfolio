@@ -36,20 +36,25 @@ export default function Project({
                         ))}
                     </ul>
                 </div>
-                <Image src={imageUrl} alt="Project I worked on" quality={95} 
-                className='absolute hidden sm:block top-[4rem] sm:right-4 w-[24rem] md:w-[28rem] rounded-t-lg shadow-2xl 
-                transition 
-                group-hover:scale-[1.04] 
-                group-even:right-[initial] 
-                group-even:-left-40 
-                group-hover:-translate-x-3 
-                group-hover:translate-y-3 
-                group-hover:-rotate-2
+                <Image
+                    src={imageUrl}
+                    alt="Project I worked on"
+                    quality={95}
+                    className="absolute top-[5rem] right-4 w-[24rem] rounded-t-lg shadow-2xl
+                        transition 
+                        group-hover:scale-[1.04] 
+                        group-hover:-translate-x-2 
+                        group-hover:translate-y-2 
+                        group-hover:-rotate-2
 
-                group-even:group-hover:translate-x-3 
-                group-even:group-hover:translate-y-3 
-                group-even:group-hover:rotate-2
-                '></Image>
+                        group-even:right-[initial] 
+                        group-even:left-4 
+                        group-even:group-hover:translate-x-2 
+                        group-even:group-hover:translate-y-2 
+                        group-even:group-hover:rotate-2
+                    "
+                    />
+
             </section>
         </motion.div>
 
