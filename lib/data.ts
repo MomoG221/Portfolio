@@ -4,9 +4,10 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import concordiaMaps from "@/public/projects/concordiamaps.jpeg";
 import carRentalImg from "@/public/projects/car.png";
-import tictactoe from "@/public/projects/tictactoe.png";
 import lesson from "@/public/projects/342.png";
 import soccerdb from "@/public/projects/soccerdb.png";
+import aijob from "@/public/projects/ai.png";
+import file from "@/public/projects/file.jpg";
 
 export const links = [
   {
@@ -37,116 +38,127 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Started Software Engineering at Concordia",
+    title: "Software Engineering at Concordia University",
     location: "Montreal, QC",
     description:
-      "Began my Bachelor's degree in Software Engineering at Concordia University, where I explored both theoretical foundations and practical applications of software development.",
+      "Pursuing a Bachelor's in Software Engineering at Concordia University, with coursework in Object-Oriented Programming, Web Programming, Software Architecture, and UI Design.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - Present",
+    date: "Sep 2022 – May 2026",
   },
   {
-    title: "Academic + Personal Full-Stack Projects",
+    title: "Full-Stack & Academic Projects",
     location: "Montreal, QC",
     description:
-      "Worked on several full-stack web applications including a car rental system, blog platform, and task manager. Gained hands-on experience with Svelte, React, NestJS, Node.js, SQL, and PostgreSQL.",
+      "Built multiple academic and personal projects using React, Svelte, NestJS, Java, SQL, and AWS. Projects include a car rental platform, campus navigation app, and an AI-driven job analyzer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - Present",
+    date: "2022 – Present",
   },
   {
-    title: "Looking for Internship / Full-Time Opportunities",
+    title: "Seeking Internship",
     location: "Remote / Montreal",
     description:
-      "Currently seeking an internship or entry-level full-time opportunity to apply my skills in a real-world environment and grow as a software engineer.",
+      "Actively pursuing software engineering internship opportunities to contribute to impactful projects and grow my skills in real-world environments.",
     icon: React.createElement(FaReact),
     date: "2025",
   },
 ] as const;
 
 
+
 export const projectsData = [
   {
-    title: "ConcordiaMaps",
+    title: "Navigation App",
     description:
-      "The project aims to develop a car rental web application leveraging a Micro Service architecture.",
-    tags: ["Svelte", "Nest", "PostgreSQL,"],
+      "Mobile app for indoor/outdoor navigation at Concordia. Integrated Google Calendar and SonarQube, improving test coverage and reliability.",
+    tags: ["React Native", "JavaScript", "Jest", "SonarQube"],
     imageUrl: concordiaMaps,
-    source: "https://github.com/apollinelbcr/team_1-soen341projectW2024",
+    source: "https://github.com/SOEN-390-pmzone/SOEN-_390-Q-QD",
   },
   {
-    title: "Car Rental",
+    title: "Car Rental App",
     description:
-      "The project aims to develop a car rental web application leveraging a Micro Service architecture.",
-    tags: ["Svelte", "Nest", "PostgreSQL,"],
-    imageUrl:carRentalImg,
-    source: "https://github.com/apollinelbcr/team_1-soen341projectW2024",
-  },
-  {
-    title: "Spring Boot",
-    description:
-      "Under development",
-    tags: ["React", "SprintBoot", "AWS", "Docker" ] ,
-    imageUrl: lesson,
+      "Full-stack booking platform with Svelte frontend, NestJS backend, and PostgreSQL database. Led frontend optimization and backend API security.",
+    tags: ["Svelte", "NestJS", "PostgreSQL"],
+    imageUrl: carRentalImg,
     source: "https://github.com/apollinelbcr/team_1-soen341projectW2024",
   },
   {
     title: "Lesson Scheduler",
     description:
-      "Developed a Java-based system with SQL integration to manage lesson offerings and bookings.",
+      "Java system for managing lessons with multi-threading and SQL integration. Supported multiple user roles with tailored functionalities.",
     tags: ["Java", "SQL"],
     imageUrl: lesson,
-    source: "https://github.com/Sawanoza/SOEN342",
+    source: "https://github.com/MomoG221/Lesson-Scheduler",
   },
   {
-    title: "Soccer Databse",
+    title: "Soccer DB Project",
     description:
-      "Developed a Java-based system with SQL integration to manage lesson offerings and bookings.",
-    tags: ["Java", "SQL"],
+      "Used Python and APIs to build a PostgreSQL/Neo4j database. Improved query performance and visualized player relationships with graph models.",
+    tags: ["Python", "PostgreSQL", "Neo4j"],
     imageUrl: soccerdb,
-    source: "https://github.com/Sawanoza/SOEN342",
+    source: "https://github.com/mcndl13/SOEN-363-Project",
   },
-
   {
-    title: "Tic-Tac-Toe",
+    title: "AI Job Analyzer",
     description:
-      "This project is a Tic-Tac-Toe game that allows two players to play against each other.",
-    tags: ["React", "HTML", "CSS"],
-    imageUrl: tictactoe,
-    source: "https://github.com/MomoG221/Tic-Tac-Toe",
-  }
+      "Developing an AI tool for matching resumes to job descriptions using Gemini and Make.com, with automation and semantic analysis features. Under Development",
+    tags: ["ReactJS", "ExpressJS", "Gemini", "Make.com"],
+    imageUrl: aijob,
+    
+  },
+  {
+    title: "Full-Stack File Upload System",
+    description:
+      "React + Spring Boot system using AWS S3 for secure file uploads. Under Development",
+    tags: ["React", "Spring Boot", "AWS", "Docker"],
+    imageUrl: file,
+    
+
+
+  },
 
 ] as const;
+
 
 
 export const skillsData = [
   // Core Programming Languages
-  "HTML",
-  "CSS",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "TypeScript",
-  "Java",
   "Python",
+  "Java",
   "SQL",
 
   // Frontend Frameworks & Libraries
-  "React",
+  "ReactJS",
   "Svelte",
   "Tailwind CSS",
 
   // Backend Frameworks & Libraries
-  "Node",
-  "Express",
-  "Nest",
-  "SpringBoot",
+  "NodeJS",
+  "ExpressJS",
+  "NestJS",
+  "Spring Boot",
 
   // Databases
   "PostgreSQL",
-  "MongoDB",
+
+  // Cloud & DevOps
+  "AWS",
 
   // Tools & Platforms
-  "GitHub",
+  "Git/GitHub",
+  "Postman",
   "Figma",
+  "SonarQube",
+  "PowerBI",
+  "Microsoft Office",
 
   // Testing
-  "Jest"
+  "Jest",
+
 ] as const;
+
 
