@@ -101,19 +101,19 @@ export const projectsData = [
   {
     title: "AI Job Analyzer",
     description:
-      "Developing an AI tool for matching resumes to job descriptions using Gemini and Make.com, with automation and semantic analysis features. Under Development",
+      "Developing an AI tool for matching resumes to job descriptions using Gemini and Make.com, with automation and semantic analysis features.",
     tags: ["ReactJS", "ExpressJS", "Gemini", "Make.com"],
     imageUrl: aijob,
+    source: "https://github.com/MomoG221/AI-Job-Analyzer"
     
   },
   {
-    title: "Full-Stack File Upload System",
+    title: "File Upload System",
     description:
-      "React + Spring Boot system using AWS S3 for secure file uploads. Under Development",
+      "React + Spring Boot system using AWS S3 for secure file uploads.",
     tags: ["React", "Spring Boot", "AWS", "Docker"],
     imageUrl: file,
-    
-
+    source: "https://github.com/MomoG221/File-Upload-System"
 
   },
 
